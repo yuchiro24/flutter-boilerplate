@@ -1,6 +1,5 @@
-# aufguss_event_app
-
-アウフグースのイベント閲覧アプリ
+# flutter-boilerplate
+Flutter Boilerplate
 
 ## Install
 
@@ -48,15 +47,6 @@ sh/build_runner.sh
 ### lib/domain/dto
 - repositoryに関するデータ
 
-### lib/l10n
-- 文言定義ファイル
-- 追加したら即反映される 
-- 使用例↓
-```
-context.l10.〇〇
-```
-- 警告が消えない場合は `fvm flutter pub get` or エディタを再起動すると反映される
-
 ### lib/presentation
 #### lib/presentation/pages
 - 各ページの実装部分
@@ -70,5 +60,3 @@ sh/build_runner.sh
 ```
 #### lib/presentation/widgets
 - 共通コンポーネント/widget
-
-
