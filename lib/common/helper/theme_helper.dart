@@ -1,5 +1,5 @@
 import 'package:aufguss_event_app/common/extension/context_extension.dart';
-import 'package:aufguss_event_app/common/master/color.dart';
+import 'package:aufguss_event_app/common/color.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

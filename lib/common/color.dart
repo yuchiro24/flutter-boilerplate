@@ -1,15 +1,5 @@
 import 'package:flutter/material.dart';
 
-// 今回使う色
-const karutaButtonColor = Color(0xFF446763);
-const karutaBorderColor = Color(0xFFEEEEEE);
-const karutaAppBarColor = Color(0xFF446763);
-const karutaTextColor = Color(0xFFF7F8F3);
-const karutaBlackTextColor = Color(0xFF333333);
-const karutaBackgroundColor = Color(0xFFF7F8F3);
-const karutaButtonSecondColor = Color(0xFFEDEEE9);
-const karutaGrey = Color(0xFF888888);
-
 const kAppTheme = Color(0xFFE2189A);
 const kAppPink100 = Color(0xFFECA4D3);
 const kAppPink200 = Color(0xFFFA84D4);

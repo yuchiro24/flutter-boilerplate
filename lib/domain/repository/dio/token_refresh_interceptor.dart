@@ -1,10 +1,8 @@
 import 'package:dio/dio.dart';
-import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 class TokenRefreshInterceptor extends Interceptor {
-  TokenRefreshInterceptor(this._ref, this._dio);
+  TokenRefreshInterceptor(this._dio);
 
-  final Ref _ref;
   final Dio _dio;
 
   @override
@@ -20,7 +18,6 @@ class TokenRefreshInterceptor extends Interceptor {
         DioError(
           requestOptions: err.requestOptions,
           response: err.response,
-          type: DioErrorType.other,
           error: Exception('Auth token refresh failed'),
         ),
       );

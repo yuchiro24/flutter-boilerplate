@@ -1,4 +1,4 @@
-import 'package:aufguss_event_app/common/index.dart';
+import 'package:aufguss_event_app/common/logger.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 

@@ -3,7 +3,6 @@ import 'package:aufguss_event_app/presentation/pages/app_tab_navigation.dart';
 import 'package:aufguss_event_app/presentation/pages/sample/sample_page_notifier.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import '../../../common/index.dart';
 
 class SamplePage extends TabWidgetPage {
   const SamplePage({Key? key}) : super(key: key);
@@ -21,7 +20,7 @@ class SamplePage extends TabWidgetPage {
     final sampleNotifier = ref.watch(sampleProvider.notifier);
     return Scaffold(
       appBar: AppBar(
-        title: Text(context.l10n.title),
+        title: Text('さんぷる'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
@@ -33,7 +32,7 @@ class SamplePage extends TabWidgetPage {
       body: ListView(
         children: [
           Center(
-            child: Text(context.l10n.title),
+            child: Text('さんぷる'),
           ),
           Center(
             child: Text('${sampleState.count}'),

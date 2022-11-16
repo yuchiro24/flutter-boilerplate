@@ -1,4 +1,4 @@
-import 'package:aufguss_event_app/common/index.dart';
+import 'package:aufguss_event_app/common/logger.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:state_notifier/state_notifier.dart';

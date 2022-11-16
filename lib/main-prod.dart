@@ -3,8 +3,8 @@ import 'app.dart';
 import 'flavors.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:flutter_flavor/flutter_flavor.dart';
-
-import './common/configure/index.dart' as logger;
+import 'package:aufguss_event_app/common/logger.dart';
+import './common/logger.dart' as logger;
 
 void main() {
   FlavorConfig(

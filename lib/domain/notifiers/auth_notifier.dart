@@ -1,4 +1,4 @@
-import 'package:aufguss_event_app/common/configure/logger.dart';
+import 'package:aufguss_event_app/common/logger.dart';
 import 'package:aufguss_event_app/domain/entities/auth_token/auth_token.dart';
 import 'package:aufguss_event_app/domain/repository/dio/app_service.dart';
 import 'package:aufguss_event_app/domain/repository/secure_storage/secure_storage_key.dart';

@@ -4,7 +4,7 @@ import 'flavors.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:flutter_flavor/flutter_flavor.dart';
 
-import './common/configure/index.dart' as logger;
+import './common/logger.dart' as logger;
 
 void main() {
   FlavorConfig(
